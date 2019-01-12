@@ -68,13 +68,13 @@ server:
   servlet:
     context-path: /mis
 
-logging:
-  pattern:
-    console: "%d - %msg%n"
-  path: /var/log/tomcat/
-  file: /var/log/tomcat/mis.log
-  level:
-    com.zgpi: trace
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /var/log/tomcat/
+#  file: /var/log/tomcat/mis.log
+#  level:
+#    com.zgpi: trace
 
 mybatis:
   mapper-locations: mapper/**/*.xml
