@@ -8,10 +8,10 @@ import org.springframework.cache.annotation.EnableCaching;
 @SpringBootApplication
 @MapperScan(basePackages = "com.zgpi.*.dao")
 @EnableCaching
-public class MesApplication {
+public class MisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MesApplication.class, args);
+        SpringApplication.run(MisApplication.class, args);
     }
 
 }
